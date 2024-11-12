@@ -1,0 +1,17 @@
+agent:
+  name: 'NightMother'
+  version: '1.0.0'
+  check_interval: 30
+
+monitoring:
+  processes: true
+  wsl: true
+  git: true
+  vscode: true
+
+logging:
+  level: 'INFO'
+  file: 'logs/nightmother.log'
+
+database:
+  path: 'data/nightmother.db'
